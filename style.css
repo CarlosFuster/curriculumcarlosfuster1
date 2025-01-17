@@ -1,0 +1,141 @@
+body
+{
+    padding-top: 20px;
+    text-align: center;
+    background-image: url(imgs/old_map.png);
+}
+
+#page
+{
+    width: 960px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+header
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 1.1em;
+    border-bottom: 6px;
+    border-color: black;
+    border: solid;
+    background-color: #313B44;
+}
+
+h1
+{
+    background-image: url(imgs/Taylor_Swift_at_the_Golden_Globes_2024_\(Enhanced\,_cropped\).jpg);
+    background-repeat: no-repeat;
+    background-position: 25px center;
+    background-size: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    color: silver;
+    text-align: center;
+    background-image: url(imgs/red015.jpg);
+}
+
+nav li
+{
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 10px;
+    background-size: 64px;
+}
+
+#estudios
+{
+    background-image: url(imgs/conocimientos.png);
+}
+
+#conocimientos
+{
+    background-image: url(imgs/estudios.png);
+}
+
+#contacto
+{
+    background-image: url(imgs/contacto.png);
+}
+
+section
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-image: url(imgs/lgrey008.jpg);
+}
+
+article
+{
+    width: 240px;
+    border: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border: solid;
+    text-align: center;
+    line-height: 1.8em;
+    padding: 5px;
+    padding-bottom: 22px;
+    margin: 30px;
+    float: left;
+}
+
+.clearfix::before,
+.clearfix::after,
+section
+{
+    width:100%;
+    display: table;
+}
+
+article header
+{
+    border-bottom: 1px;
+    border: solid;
+    border-color: #999999;
+}
+
+h2
+{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer
+{
+   float: unset;
+   font-size: 0.7em;
+   color:white;
+   text-align: center;
+   background-color: #313B44;
+   border-top: 6px;
+   border-color: black;
+   border: solid;
+   padding-top: 15px;
+   padding-bottom: 15px; 
+}
+
+footer a
+{
+    color: white;
+}
